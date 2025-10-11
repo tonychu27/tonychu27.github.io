@@ -15,7 +15,7 @@ body {
     margin-top: 10px;
     font-size: 0.9em;
     position: relative;
-    z-index: 10; /* Ensures links sit above other elements */
+    z-index: 10;
 }
 
 .top-links a {
@@ -34,28 +34,28 @@ body {
 .top-links .icon {
     width: 20px;
     height: 20px;
-    margin-right: 5px; /* space between icon and text */
+    margin-right: 5px;
     vertical-align: middle;
 }
 
 /* Centers the content and limits its width for readability */
 .container {
-    max-width: 900px; /* Adjust this width as needed */
+    max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow like in the template */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 /* Styling the profile photo */
 .profile-photo {
-    float: right; /* Places the image on the right */
+    float: right;
     width: 150px;
     height: 200px;
     object-fit: cover;
-    border-radius: 4px; /* Slight rounding on the corners */
-    margin: 100px 0 15px 25px; /* Spacing around the image */
+    border-radius: 4px;
+    margin: 80px 0 15px 25px;
 }
 
 /* Clear the float after the header content */
@@ -67,11 +67,11 @@ header::after {
 
 /* Styling headings */
 h1 {
-    color: #005A9C; /* A university-like blue */
+    color: #005A9C;
 }
 
 h2 {
-    border-bottom: 2px solid #eee; /* A subtle line under the section titles */
+    border-bottom: 2px solid #eee; 
     padding-bottom: 5px;
     margin-top: 30px;
 }
