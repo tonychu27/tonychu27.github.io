@@ -55,7 +55,7 @@ body {
     height: 200px;
     object-fit: cover;
     border-radius: 4px; /* Slight rounding on the corners */
-    margin: 0 0 15px 25px; /* Spacing around the image */
+    margin: 60px 0 15px 25px; /* Spacing around the image */
 }
 
 /* Clear the float after the header content */
@@ -98,4 +98,13 @@ hr {
     height: 1px;
     background-color: #ddd;
     margin: 40px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 0.9em;
 }
